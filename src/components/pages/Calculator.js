@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Calculator = () => {
     const [total, setTotal] = useState(0);
-
+  
     return (
         <div className='h-screen bg-dark flex justify-center items-center'>
             <div className='h-content w-80 bg-light-gray rounded-xl'>
