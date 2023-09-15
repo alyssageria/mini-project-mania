@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Calculator from './components/pages/Calculator';
 
 function App() {
   return (
     <div>
-      <h1>Mini Project Mania</h1>
+      <Calculator />
     </div>
   );
 }
